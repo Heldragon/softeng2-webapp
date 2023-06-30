@@ -1,0 +1,16 @@
+h1 {
+  font-size: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+#buttonContainer {
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+button {
+  margin: auto;
+  width: 50%;
+}
