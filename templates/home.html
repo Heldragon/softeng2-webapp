@@ -11,9 +11,14 @@
     <link rel="stylesheet" type="text/css" href="/static/homestylesheet.css" />
   </head>
   <body>
-    <div class="container">
+    {% include 'navbar.html' %}
+    <div class="container text-center">
     <h1 class="text-center mt-2 mb-4">Shop 'n Dash</h1>
-    <div class="d-grid gap-2 col-6 mx-auto">
+      <div class="btn-group mx-auto p-2 btn-group-sm" style="width: 200px;" role="group" aria-label="Basic outlined example ">
+       <button class="btn btn-outline-primary" type="button">Login</button>
+       <button class="btn btn-outline-primary" type="button">Sign up</button>
+      </div>
+    <div class="d-grid gap-2 col-6 mx-auto p-2">
       <button class="btn btn-primary" type="button">Start a Cart</button>
       <button class="btn btn-primary" type="button">Price Checker</button>        
     </div>
